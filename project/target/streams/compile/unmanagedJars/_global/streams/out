@@ -1,0 +1,27 @@
+[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: [0m
+[0m[[0m[31merror[0m] [0m[0mCould not automatically find the JDK/lib/tools.jar.[0m
+[0m[[0m[31merror[0m] [0m[0mYou must explicitly set JDK_HOME or JAVA_HOME.[0m
+[0m[[0m[31merror[0m] [0m[0m    [0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scaladebugger.SbtJdiTools$.$anonfun$JavaTools$6(SbtJdiTools.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scaladebugger.SbtJdiTools$.JavaTools$lzycompute(SbtJdiTools.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scaladebugger.SbtJdiTools$.JavaTools(SbtJdiTools.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scaladebugger.SbtJdiTools$.$anonfun$baseScalaDebuggerToolsSettings$1(SbtJdiTools.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31munmanagedJars[0m) java.io.FileNotFoundException: [0m
+[0m[[0m[31merror[0m] [0m[0mCould not automatically find the JDK/lib/tools.jar.[0m
+[0m[[0m[31merror[0m] [0m[0mYou must explicitly set JDK_HOME or JAVA_HOME.[0m
+[0m[[0m[31merror[0m] [0m[0m    [0m
